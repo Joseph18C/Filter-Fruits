@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrador de Frutas</title>
+  <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 850px)">
+  <script src="https://kit.fontawesome.com/d48e65c896.js" crossorigin="anonymous"></script>
+
+
+  <!--Letter Type-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1>Fruits Market</h1>
+  </header>
+  <div class="conteiner-input">
+    <div class="newValue">
+      <p id="close">X</p>
+      <h2>Bienvenido a Fruits Market</h2>
+      <div class="fruits-newValue">
+        <h3>Quieres Añadir una fruta?</h3>
+        <div class="inputFruits-conteiner">
+          <input class="new-value" type="text" placeholder="Ingrese el nombre de la Fruta">
+          <input class="new-value" type="text" placeholder="Ingrese la Url de la img">
+        </div>
+        <button id="saveDate" class="btn btn5">
+          <h4>Guardar</h4>
+        </button>
+      </div>
+    </div>`
+    <div class="initial-conteiner">
+      <label for="fruits">Busque una fruta</label>
+      <div class="conteiner-input-info">
+        <span><i class="fas fa-search"></i></span>
+        <input id="fruits" type="text">
+        <span><i class="fas fa-microphone"></i></span>
+      </div>
+      <button id="new-Fruits" class="btn btn5">
+        <h4>Agregar Frutas</h4>
+      </button>
+    </div>
+  </div>
+  <div class="conteiner-fruits">
+
+
+  </div>
+  <script async type="module" src="./index.js"></script>
+</body>
+
+</html>
