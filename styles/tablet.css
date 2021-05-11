@@ -1,0 +1,20 @@
+.conteiner-input-info {
+  width: 100%;
+}
+.conteiner-fruits {
+  margin: 20px auto;
+}
+.conteiner-fruits .fruits-conteinerInfo {
+  flex-direction: row;
+}
+.fruits-conteinerInfo img {
+  width: 150px;
+  height: 150px;
+}
+.newValue .inputFruits-conteiner .new-value::placeholder {
+  font-size: 1.2rem;
+}
+.btn {
+  width: 150px;
+  height: 80px;
+}
